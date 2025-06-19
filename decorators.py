@@ -102,7 +102,7 @@ def decorator_function(original_function):
 def greet(name):
     print(f"Hello, {name}!")
 
-greet("Sameer")
+# greet("Sameer")
 
 
 
@@ -158,4 +158,6 @@ def slow_function():
     time.sleep(2)
     print("Function done")
 
-slow_function()
+# slow_function()
+
+print(__name__ , 'from decorator')
