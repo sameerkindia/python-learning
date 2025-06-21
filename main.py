@@ -1,9 +1,15 @@
 # import decorators
+from pyjokes.jokes_de import neutral
+
 from decorators import timer
 import time
 from shopping import shopping_cart
 import random
+import pyjokes
 
+joke = pyjokes.get_joke("en" , "neutral")
+
+print(joke)
 # print(decorators.timer)
 # print(timer)
 
